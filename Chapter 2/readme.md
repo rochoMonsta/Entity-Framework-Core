@@ -6,3 +6,5 @@
 **EntityFramework2.3** - Визначення моделей
 
 **EntityFramework2.4** - Властивості моделей
+
+**EntityFramework2.4** - Зіставлення таблиць і стовпців
