@@ -4,7 +4,7 @@ namespace EntityFramework2._6.Models
 {
     class User
     {
-        //[Key] //Вказуємо, що свойство ProductNumber є ключем (id)
+        //[Key] //Вказуємо, що свойство UserNumber є ключем (id)
         public int UserNumber { get; set; }
         public string Name { get; set; }
         public string Surname { get; set; }
