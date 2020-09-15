@@ -12,3 +12,5 @@
 **EntityFramework2.6** - Налаштування ключів та індексів
 
 **EntityFramework2.7** - Генерація значень властивостей і стовпців
+
+**EntityFramework2.8** - Обмеження властивостей (NOT NULL, MaxLength)
