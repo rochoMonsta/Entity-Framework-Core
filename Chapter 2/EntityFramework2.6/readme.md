@@ -47,7 +47,7 @@ protected override void OnModelCreating(ModelBuilder modelBuilder)
     modelBuilder.Entity<User>().HasAlternateKey(u => new { u.PhoneNumber, u.PassportNumber });
 }
 ```
-### Індеки
+### Індекcи
 Засоби Fluent API дозволяють нам створити індекси які пришвидшують пошук по БД:
 ```csharp
 protected override void OnModelCreating(ModelBuilder modelBuilder)
