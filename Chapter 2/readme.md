@@ -16,3 +16,5 @@
 **EntityFramework2.8** - Обмеження властивостей (NOT NULL, MaxLength)
 
 **EntityFramework2.9** - Співставлення типів даних
+
+**EntityFramework2.10** - Конфігурація моделей
