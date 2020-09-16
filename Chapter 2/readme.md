@@ -14,3 +14,5 @@
 **EntityFramework2.7** - Генерація значень властивостей і стовпців
 
 **EntityFramework2.8** - Обмеження властивостей (NOT NULL, MaxLength)
+
+**EntityFramework2.9** - Співставлення типів даних
