@@ -1,4 +1,4 @@
-# Entity Framework (Chapter 2, Lesson 5)
+# Entity Framework Core (Chapter 2, Lesson 5)
 
 ## Коротка інформація
 [Lesson link (Metanit)](https://metanit.com/sharp/entityframeworkcore/2.6.php)
