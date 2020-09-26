@@ -12,3 +12,5 @@
 **EntityFramework3.5** - Відношення один до багатьох
 
 **EntityFramework3.6** - Відношення багато до багатьох
+
+**EntityFramework3.7** - Власні типи
