@@ -1,7 +1,7 @@
 # Entity Framework Core (Chapter 5, Lesson 3)
 
 ## Коротка інформація
-[Lesson link (Metanit)](https://metanit.com/sharp/entityframeworkcore/5.3.php)
+[Lesson link (Metanit)](https://metanit.com/sharp/entityframeworkcore/5.10.php)
 
 Підключені бібліотеки:
 
