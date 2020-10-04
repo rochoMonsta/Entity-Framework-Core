@@ -63,25 +63,28 @@ namespace EntityFramework5._5
         {
             using (ApplicationContext db = new ApplicationContext())
             {
-                //var phoneWithCompany = db.Phones.Where(p => p.Price > 100)
-                //                                .Union(db.Phones.Where(p => p.Name.Contains("Samsung")));
+                var phoneWithCompany = db.Phones.Where(p => p.Price > 700)
+                                                .Union(db.Phones.Where(p => p.Name.Contains("Xiaomi")));
 
-                //var phones = db.Phones.Where(p => p.Price > 700)
-                //                      .Intersect(db.Phones.Where(p => p.Company.Name == "Apple"));
+                foreach (var phone in phoneWithCompany)
+                    Console.WriteLine(phone);
 
-                //Отримуємо колекцію тих телефонів, чия вартість перевищує 600
-                var selector1 = db.Phones.Where(p => p.Price > 600);
-                //Отримуємо колекцію тих телефонів, в який ім'я компанії - "Apple"
-                var selector2 = db.Phones.Where(p => p.Company.Name == "Apple");
+                ////var phones = db.Phones.Where(p => p.Price > 700)
+                ////                      .Intersect(db.Phones.Where(p => p.Company.Name == "Apple"));
 
-                //Отримуємо колекцію телефонів, які присутні в першій вибірці, але відсутні в другій
-                //Оскільки перша вибірка має багато телефонів компанії "Apple" та тільки 1 телефон компанії "Samsung"
-                //після виконання операції ми отримаємо тільки телефон компанї "Samsung", оскільки решту телефонів компанї "Apple"
-                //приустні в списку телефонів компанї "Apple"
-                var phones = selector1.Except(selector2);
+                ////Отримуємо колекцію тих телефонів, чия вартість перевищує 600
+                //var selector1 = db.Phones.Where(p => p.Price > 600);
+                ////Отримуємо колекцію тих телефонів, в який ім'я компанії - "Apple"
+                //var selector2 = db.Phones.Where(p => p.Company.Name == "Apple");
 
-                foreach (var phone in phones.Include(p => p.Company))
-                    Console.WriteLine($"Phone name: {phone.Name} - Price: {phone.Price} - Company: {phone?.Company?.Name}");
+                ////Отримуємо колекцію телефонів, які присутні в першій вибірці, але відсутні в другій
+                ////Оскільки перша вибірка має багато телефонів компанії "Apple" та тільки 1 телефон компанії "Samsung"
+                ////після виконання операції ми отримаємо тільки телефон компанї "Samsung", оскільки решту телефонів компанї "Apple"
+                ////приустні в списку телефонів компанї "Apple"
+                //var phones = selector1.Except(selector2);
+
+                //foreach (var phone in phones.Include(p => p.Company))
+                //    Console.WriteLine($"Phone name: {phone.Name} - Price: {phone.Price} - Company: {phone?.Company?.Name}");
             }
         }
     }
