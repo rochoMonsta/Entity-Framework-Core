@@ -12,3 +12,5 @@
 **EntityFramework5.5** - Операції з множинами: об'єднання, перетин, різниця
 
 **EntityFramework5.6** - Агрегатні операції
+
+**EntityFramework5.7** - Відстеження об'єктів і AsNoTracking
