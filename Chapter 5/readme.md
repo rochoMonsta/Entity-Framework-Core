@@ -14,3 +14,5 @@
 **EntityFramework5.6** - Агрегатні операції
 
 **EntityFramework5.7** - Відстеження об'єктів і AsNoTracking
+
+**EntityFramework5.8** - Виконання запитів
