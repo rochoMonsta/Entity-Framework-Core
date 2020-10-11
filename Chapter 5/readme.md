@@ -16,3 +16,5 @@
 **EntityFramework5.7** - Відстеження об'єктів і AsNoTracking
 
 **EntityFramework5.8** - Виконання запитів
+
+**EntityFramework5.9** - IEnumerable та IQueryable
