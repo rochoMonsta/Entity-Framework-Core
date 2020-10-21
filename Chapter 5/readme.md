@@ -18,3 +18,5 @@
 **EntityFramework5.8** - Виконання запитів
 
 **EntityFramework5.9** - IEnumerable та IQueryable
+
+**EntityFramework5.10** - Фільтри запитів рівня моделі
